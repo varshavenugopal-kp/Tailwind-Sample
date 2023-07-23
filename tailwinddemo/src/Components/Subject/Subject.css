@@ -1,0 +1,10 @@
+.hide-scroll-bar {
+    -ms-overflow-style: none;
+    overflow: hidden;
+  }
+  
+  /* Hide the scrollbar for WebKit browsers (like Chrome and Safari) */
+  .hide-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
